@@ -1,0 +1,131 @@
+.main{
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center horizontally */
+}
+.sub{
+    background-color: #fff;
+}
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    
+  }
+  
+  .image-container {
+    width: calc(33.33% - 20px);
+    /* max-width: 200px; Adjust based on your preference */
+    overflow: hidden;
+    /* width: 300px; */
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    /* height: 200px; */
+
+  
+  }
+  
+  .image-container img {
+    width: 300px;
+    height:300px ;
+    object-fit: cover;
+
+  }
+  
+  .image-container:hover {
+    transform: scale(1.05);
+  }
+  .all-button{
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    width: 100%;
+   
+
+   
+  }
+  
+  .nav-btn-nxt,
+  .nav-btn-pre {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 24px;
+    color: #333;
+    transition: color 0.3s ease;
+
+
+
+
+  }
+  .nav-btn-pre{
+
+
+  }
+  .nav-btn-nxt{
+
+
+  
+ 
+  }
+  
+  .nav-btn:hover {
+    color: #555;
+  }
+  
+  .modal {
+    position: fixed;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.808);
+    padding: 30px 0px 5px 0px;
+    border-radius: 10px;
+    z-index: 1000;
+    height: 500px;
+    width: 800px;
+    
+  }
+  
+  .modal iframe {
+    /* max-width: 100%; */
+    /* max-height: 80vh; */
+    display: block;
+    margin: 0 auto;
+    object-fit: cover;
+    width: 790px;
+    height: 500px;
+    border-radius: 10px;
+    
+    
+  }
+  
+  .close-btn {
+    position: absolute;
+    top: -6.5px;
+    right: -2px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 34px;
+    color: #fff;
+    transition: color 0.3s ease;
+  }
+  
+  .close-btn:hover {
+    color: #ccc;
+  }
+  .main2{
+    
+    display: flex;
+    align-items: center;
+
+  }
+  .inactive-btn{
+    opacity: 0.3;
+  }
+  

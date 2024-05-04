@@ -1,0 +1,25 @@
+.main {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .div1 {
+    /* Styles for div1 */
+  }
+  
+  .div2 {
+    /* Styles for div2 */
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .button-left {
+    /* Styles for left button */
+    text-align: center;
+  }
+  
+  .button-right {
+    /* Styles for right buttons */
+    text-align: center;
+  }
+  
